@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body{
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+header h1{
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+}
+ul{
+display: flex;
+align-items: center;
+list-style: none;
+margin: 0;
+}
+li{
+    padding-left: 30px; 
+}
+header a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+   
+}
+
+main section h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 20%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4em;
+}
+main section p{
+    color:#fff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+}
+main section article {
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    margin-left: 5px;
+    width: 10vw;
+    height: 5vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+button:nth-of-type(1){
+    border: 3px solid #fff;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+}
+button:nth-of-type(2){
+    border: 3px solid #5234f9;
+    color: #fff;
+    background-color: #5234f9;
+}
+button:nth-of-type(1):hover{
+    color: rgb(66, 66, 66);
+    background-color: #fff;
+
+}
+button:nth-of-type(2):hover{
+    background-color: #5234f9bb;
+    border: 3px solid #5234f9a2;
+}
